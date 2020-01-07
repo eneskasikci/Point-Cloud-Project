@@ -1,0 +1,6 @@
+<map id="DepthCamera" name="DepthCamera">
+<area shape="rect" id="node1" title="This is used to read the points from the file and saves them in a pointcloud. \nWhen capture() is cal..." alt="" coords="45,171,146,197"/>
+<area shape="rect" id="node2" href="$class_point_cloud_generator.html" title="A class creates the required objects for the capturefor object which are filterpipe and transform." alt="" coords="24,95,167,121"/>
+<area shape="rect" id="node3" href="$class_transform.html" title="A class that transorms a point cloud to a wanted coordinate system \ndotransform(point p) Transforms ..." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$class_filterpipe.html" title=" " alt="" coords="109,5,183,32"/>
+</map>

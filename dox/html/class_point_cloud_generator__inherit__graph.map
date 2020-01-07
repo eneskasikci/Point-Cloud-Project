@@ -1,0 +1,4 @@
+<map id="PointCloudGenerator" name="PointCloudGenerator">
+<area shape="rect" id="node1" title="A class creates the required objects for the capturefor object which are filterpipe and transform." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$class_depth_camera.html" title="This is used to read the points from the file and saves them in a pointcloud. \nWhen capture() is cal..." alt="" coords="26,80,127,107"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Test app to test the DepthCamera class." alt="" coords="5,195,56,221"/>
+<area shape="rect" id="node2" href="$class_filterpipe.html#af558f213c05ad6caf98d8ee2203919e4" title="Used to add all the filter objects to a vector." alt="" coords="124,5,252,32"/>
+<area shape="rect" id="node3" href="$class_depth_camera.html#a4823afbfc498d750deb2476df28aa1da" title="Function that gets the number of points in the file." alt="" coords="107,56,269,83"/>
+<area shape="rect" id="node4" href="$class_transform.html#ac4324e6af2ccf16075b8f4c7b5266b91" title="SetAngles function that sets the angles array." alt="" coords="115,107,261,133"/>
+<area shape="rect" id="node5" href="$class_point_cloud_generator.html#a46ed641fd9f5549cbc39b6b89be14bd5" title="Used to set the filterpipe." alt="" coords="117,158,259,199"/>
+<area shape="rect" id="node6" href="$class_transform.html#a1e9c5a5172e735158f176341c538f0a7" title="SetRotation function that sets the Rotation Matrix." alt="" coords="111,224,265,251"/>
+<area shape="rect" id="node7" href="$class_transform.html#a2a01ac3e5e6c2cc5ccb12e95830a1106" title="SetTrans function that sets the Trans array." alt="" coords="119,275,257,301"/>
+<area shape="rect" id="node8" href="$class_point_cloud_generator.html#a2c61c6cf3da94e593ce70f7e5484ede5" title="Used to set the transform." alt="" coords="117,326,259,367"/>
+<area shape="rect" id="node9" href="$class_transform.html#aae0846e62a467d64e9dd683789575a42" title="SetTranslation function that sets the Translation Matrix." alt="" coords="104,392,272,419"/>
+</map>

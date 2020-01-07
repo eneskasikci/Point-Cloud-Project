@@ -1,0 +1,158 @@
+\hypertarget{class_point_cloud_interface}{}\doxysection{Point\+Cloud\+Interface Class Reference}
+\label{class_point_cloud_interface}\index{PointCloudInterface@{PointCloudInterface}}
+
+
+A class that used to make the refinement and processing of the cloud simpler.  
+
+
+
+
+{\ttfamily \#include $<$Point\+Cloud\+Interface.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_point_cloud_interface_a5eb2000217df2852fe350d062a0d6f34}{add\+Generator}} (\mbox{\hyperlink{class_point_cloud_generator}{Point\+Cloud\+Generator}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Adds a generator to the generators vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_interface_a2535f35c2f43c555fee4500a34b15c5d}{set\+Recorder}} (\mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Used to set the recorder. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_point_cloud_interface_ab4ea828b55a40ddde872457e9efdbeaa}{generate}} ()
+\begin{DoxyCompactList}\small\item\em Used to generate a pointcloud by refining it and transforming where necesssary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_interface_a44c29345d3363fd28cc56e508886c573}{show\+Cloud}} ()
+\begin{DoxyCompactList}\small\item\em Prints the point cloud to console. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_point_cloud_interface_a8e0331145b2c2922027c67488d8e3fda}{record}} ()
+\begin{DoxyCompactList}\small\item\em Used to save the pointcloud points to a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that used to make the refinement and processing of the cloud simpler. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_cloud_interface_a5eb2000217df2852fe350d062a0d6f34}\label{class_point_cloud_interface_a5eb2000217df2852fe350d062a0d6f34}} 
+\index{PointCloudInterface@{PointCloudInterface}!addGenerator@{addGenerator}}
+\index{addGenerator@{addGenerator}!PointCloudInterface@{PointCloudInterface}}
+\doxysubsubsection{\texorpdfstring{addGenerator()}{addGenerator()}}
+{\footnotesize\ttfamily void Point\+Cloud\+Interface\+::add\+Generator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud_generator}{Point\+Cloud\+Generator}} $\ast$}]{gen }\end{DoxyParamCaption})}
+
+
+
+Adds a generator to the generators vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Point\+Cloud\+Generator$\ast$} & gen\+: Depthcamera object. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_point_cloud_interface_a5eb2000217df2852fe350d062a0d6f34_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_interface_ab4ea828b55a40ddde872457e9efdbeaa}\label{class_point_cloud_interface_ab4ea828b55a40ddde872457e9efdbeaa}} 
+\index{PointCloudInterface@{PointCloudInterface}!generate@{generate}}
+\index{generate@{generate}!PointCloudInterface@{PointCloudInterface}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily bool Point\+Cloud\+Interface\+::generate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Used to generate a pointcloud by refining it and transforming where necesssary. 
+
+\begin{DoxyReturn}{Returns}
+true 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_point_cloud_interface_ab4ea828b55a40ddde872457e9efdbeaa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_interface_a8e0331145b2c2922027c67488d8e3fda}\label{class_point_cloud_interface_a8e0331145b2c2922027c67488d8e3fda}} 
+\index{PointCloudInterface@{PointCloudInterface}!record@{record}}
+\index{record@{record}!PointCloudInterface@{PointCloudInterface}}
+\doxysubsubsection{\texorpdfstring{record()}{record()}}
+{\footnotesize\ttfamily bool Point\+Cloud\+Interface\+::record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Used to save the pointcloud points to a file. 
+
+\begin{DoxyReturn}{Returns}
+true 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_point_cloud_interface_a8e0331145b2c2922027c67488d8e3fda_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_point_cloud_interface_a8e0331145b2c2922027c67488d8e3fda_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_interface_a2535f35c2f43c555fee4500a34b15c5d}\label{class_point_cloud_interface_a2535f35c2f43c555fee4500a34b15c5d}} 
+\index{PointCloudInterface@{PointCloudInterface}!setRecorder@{setRecorder}}
+\index{setRecorder@{setRecorder}!PointCloudInterface@{PointCloudInterface}}
+\doxysubsubsection{\texorpdfstring{setRecorder()}{setRecorder()}}
+{\footnotesize\ttfamily void Point\+Cloud\+Interface\+::set\+Recorder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} $\ast$}]{rec }\end{DoxyParamCaption})}
+
+
+
+Used to set the recorder. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Point\+Cloud\+Recoder$\ast$} & rec\+: recorder object. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_point_cloud_interface_a2535f35c2f43c555fee4500a34b15c5d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_interface_a44c29345d3363fd28cc56e508886c573}\label{class_point_cloud_interface_a44c29345d3363fd28cc56e508886c573}} 
+\index{PointCloudInterface@{PointCloudInterface}!showCloud@{showCloud}}
+\index{showCloud@{showCloud}!PointCloudInterface@{PointCloudInterface}}
+\doxysubsubsection{\texorpdfstring{showCloud()}{showCloud()}}
+{\footnotesize\ttfamily void Point\+Cloud\+Interface\+::show\+Cloud (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints the point cloud to console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_interface_a44c29345d3363fd28cc56e508886c573_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_point_cloud_interface_a44c29345d3363fd28cc56e508886c573_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_interface_8h}{Point\+Cloud\+Interface.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_interface_8cpp}{Point\+Cloud\+Interface.\+cpp}}\end{DoxyCompactItemize}

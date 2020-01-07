@@ -1,0 +1,4 @@
+<map id="PassThroughFilter" name="PassThroughFilter">
+<area shape="rect" id="node1" title="A class that filters out points of a point cloud that lie outside of a given range \nfilter() filters..." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node2" href="$class_point_cloud_filter.html" title=" " alt="" coords="11,5,126,32"/>
+</map>

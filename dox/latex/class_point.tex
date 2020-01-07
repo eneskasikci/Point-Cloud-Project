@@ -1,0 +1,227 @@
+\hypertarget{class_point}{}\doxysection{Point Class Reference}
+\label{class_point}\index{Point@{Point}}
+
+
+This class holds the coordinates of the 3D points in the point cloud. ~\newline
+ Equal operator ( = = ), is used to check whether or not two points are equal i.\+e. in the same position. ~\newline
+ The \mbox{\hyperlink{class_point_ac2bcae726c983efee9098c06fc11c9a2}{distance()}} function returns the distance between two points.  
+
+
+
+
+{\ttfamily \#include $<$Point.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_a280c724ab1096251366184d1c0550a99}{Point}} (double X=0, double Y=0, double Z=0)
+\item 
+void \mbox{\hyperlink{class_point_a9204a7d82eb607a94cff134b9d01af1a}{set\+Point}} (double, double, double)
+\begin{DoxyCompactList}\small\item\em Used to set the coordinates of a point. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_a655794dd595a4821987664bf1d9010e8}{getX}} () const
+\begin{DoxyCompactList}\small\item\em Used to know the x coordinate of the point. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_aa323a12bec85e28ce6575dccec4f8b28}{getY}} () const
+\begin{DoxyCompactList}\small\item\em Used to know the y coordinate of the point. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_ac166e3b9c17c96e6f1ce6c9f4e53db1b}{getZ}} () const
+\begin{DoxyCompactList}\small\item\em Used to know the z coordinate of the point. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_point_a9201e61e7884cb0f861f09639cb1c121}{operator==}} (const \mbox{\hyperlink{class_point}{Point}} \&)
+\begin{DoxyCompactList}\small\item\em operator== that compares the x, y, and z coordinates of two points and returns true or false accordingly \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_ac2bcae726c983efee9098c06fc11c9a2}{distance}} (const \mbox{\hyperlink{class_point}{Point}} \&) const
+\begin{DoxyCompactList}\small\item\em Used to know the distance between two points. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a9076bc19a883d61ad79fe36e28881e2e}{return\+Point}} () const
+\begin{DoxyCompactList}\small\item\em Returns itself (poiint object). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a19b438020bcb80994ca757ee97c3b9ee}{operator=}} (const \mbox{\hyperlink{class_point}{Point}} \&)
+\begin{DoxyCompactList}\small\item\em operator= that copies the x, y, and z coordinates of another point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class holds the coordinates of the 3D points in the point cloud. ~\newline
+ Equal operator ( = = ), is used to check whether or not two points are equal i.\+e. in the same position. ~\newline
+ The \mbox{\hyperlink{class_point_ac2bcae726c983efee9098c06fc11c9a2}{distance()}} function returns the distance between two points. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_a280c724ab1096251366184d1c0550a99}\label{class_point_a280c724ab1096251366184d1c0550a99}} 
+\index{Point@{Point}!Point@{Point}}
+\index{Point@{Point}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{Point()}{Point()}}
+{\footnotesize\ttfamily Point\+::\+Point (\begin{DoxyParamCaption}\item[{double}]{X = {\ttfamily 0},  }\item[{double}]{Y = {\ttfamily 0},  }\item[{double}]{Z = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_ac2bcae726c983efee9098c06fc11c9a2}\label{class_point_ac2bcae726c983efee9098c06fc11c9a2}} 
+\index{Point@{Point}!distance@{distance}}
+\index{distance@{distance}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily double Point\+::distance (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{P }\end{DoxyParamCaption}) const}
+
+
+
+Used to know the distance between two points. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point}{Point}}\& P \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dist 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_ac2bcae726c983efee9098c06fc11c9a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_a655794dd595a4821987664bf1d9010e8}\label{class_point_a655794dd595a4821987664bf1d9010e8}} 
+\index{Point@{Point}!getX@{getX}}
+\index{getX@{getX}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily double Point\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Used to know the x coordinate of the point. 
+
+\begin{DoxyReturn}{Returns}
+x 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_a655794dd595a4821987664bf1d9010e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_aa323a12bec85e28ce6575dccec4f8b28}\label{class_point_aa323a12bec85e28ce6575dccec4f8b28}} 
+\index{Point@{Point}!getY@{getY}}
+\index{getY@{getY}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily double Point\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Used to know the y coordinate of the point. 
+
+\begin{DoxyReturn}{Returns}
+y 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_aa323a12bec85e28ce6575dccec4f8b28_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_ac166e3b9c17c96e6f1ce6c9f4e53db1b}\label{class_point_ac166e3b9c17c96e6f1ce6c9f4e53db1b}} 
+\index{Point@{Point}!getZ@{getZ}}
+\index{getZ@{getZ}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{getZ()}{getZ()}}
+{\footnotesize\ttfamily double Point\+::getZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Used to know the z coordinate of the point. 
+
+\begin{DoxyReturn}{Returns}
+z 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_ac166e3b9c17c96e6f1ce6c9f4e53db1b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_a19b438020bcb80994ca757ee97c3b9ee}\label{class_point_a19b438020bcb80994ca757ee97c3b9ee}} 
+\index{Point@{Point}!operator=@{operator=}}
+\index{operator=@{operator=}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Point\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{pc2 }\end{DoxyParamCaption})}
+
+
+
+operator= that copies the x, y, and z coordinates of another point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point}{Point}}\& pc2 \+: point to be equated to. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{class_point_a19b438020bcb80994ca757ee97c3b9ee_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_a9201e61e7884cb0f861f09639cb1c121}\label{class_point_a9201e61e7884cb0f861f09639cb1c121}} 
+\index{Point@{Point}!operator==@{operator==}}
+\index{operator==@{operator==}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Point\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{right }\end{DoxyParamCaption})}
+
+
+
+operator== that compares the x, y, and z coordinates of two points and returns true or false accordingly 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point}{Point}}\& right \+: point to be compared with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_point_a9076bc19a883d61ad79fe36e28881e2e}\label{class_point_a9076bc19a883d61ad79fe36e28881e2e}} 
+\index{Point@{Point}!returnPoint@{returnPoint}}
+\index{returnPoint@{returnPoint}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{returnPoint()}{returnPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point\+::return\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns itself (poiint object). 
+
+\begin{DoxyReturn}{Returns}
+x 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_point_a9204a7d82eb607a94cff134b9d01af1a}\label{class_point_a9204a7d82eb607a94cff134b9d01af1a}} 
+\index{Point@{Point}!setPoint@{setPoint}}
+\index{setPoint@{setPoint}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{setPoint()}{setPoint()}}
+{\footnotesize\ttfamily void Point\+::set\+Point (\begin{DoxyParamCaption}\item[{double}]{X,  }\item[{double}]{Y,  }\item[{double}]{Z }\end{DoxyParamCaption})}
+
+
+
+Used to set the coordinates of a point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & x\+: x coordinate to be assignment. \\
+\hline
+{\em double} & y\+: y coordinate to be assignment. \\
+\hline
+{\em double} & z\+: z coordinate to be assignment. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_a9204a7d82eb607a94cff134b9d01af1a_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_8h}{Point.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_8cpp}{Point.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,153 @@
+\hypertarget{class_point_cloud_generator}{}\doxysection{Point\+Cloud\+Generator Class Reference}
+\label{class_point_cloud_generator}\index{PointCloudGenerator@{PointCloudGenerator}}
+
+
+A class creates the required objects for the capturefor object which are filterpipe and transform.  
+
+
+
+
+{\ttfamily \#include $<$Point\+Cloud\+Generator.\+h$>$}
+
+
+
+Inheritance diagram for Point\+Cloud\+Generator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_point_cloud_generator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Point\+Cloud\+Generator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_point_cloud_generator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_cloud_generator_acfe01cc15140bd7d6600853447d16415}{Point\+Cloud\+Generator}} ()
+\item 
+virtual \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_point_cloud_generator_a74ae47dc63f580ffc601cac6a0254870}{capture}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_point_cloud_generator_a988376c55a3c093a91cdd073104c01d4}{capture\+For}} ()=0
+\item 
+void \mbox{\hyperlink{class_point_cloud_generator_a46ed641fd9f5549cbc39b6b89be14bd5}{set\+Filterpipe}} (\mbox{\hyperlink{class_filterpipe}{Filterpipe}})
+\begin{DoxyCompactList}\small\item\em Used to set the filterpipe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_generator_a2c61c6cf3da94e593ce70f7e5484ede5}{set\+Transform}} (\mbox{\hyperlink{class_transform}{Transform}})
+\begin{DoxyCompactList}\small\item\em Used to set the transform. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_transform}{Transform}} \mbox{\hyperlink{class_point_cloud_generator_a030bfe2bf5354556e44fa31f69f48d4f}{transform}}
+\item 
+\mbox{\hyperlink{class_filterpipe}{Filterpipe}} \mbox{\hyperlink{class_point_cloud_generator_afc4a00db3cb6f915d0872ccf041515a5}{filter\+Pipe}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class creates the required objects for the capturefor object which are filterpipe and transform. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_cloud_generator_acfe01cc15140bd7d6600853447d16415}\label{class_point_cloud_generator_acfe01cc15140bd7d6600853447d16415}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!PointCloudGenerator@{PointCloudGenerator}}
+\index{PointCloudGenerator@{PointCloudGenerator}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{PointCloudGenerator()}{PointCloudGenerator()}}
+{\footnotesize\ttfamily Point\+Cloud\+Generator\+::\+Point\+Cloud\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_cloud_generator_a74ae47dc63f580ffc601cac6a0254870}\label{class_point_cloud_generator_a74ae47dc63f580ffc601cac6a0254870}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!capture@{capture}}
+\index{capture@{capture}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{capture()}{capture()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Point\+Cloud\+Generator\+::capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}{Depth\+Camera}}.
+
+\mbox{\Hypertarget{class_point_cloud_generator_a988376c55a3c093a91cdd073104c01d4}\label{class_point_cloud_generator_a988376c55a3c093a91cdd073104c01d4}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!captureFor@{captureFor}}
+\index{captureFor@{captureFor}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{captureFor()}{captureFor()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Point\+Cloud\+Generator\+::capture\+For (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_depth_camera_a94a4356b2ee9786b732a2fd43d512666}{Depth\+Camera}}.
+
+\mbox{\Hypertarget{class_point_cloud_generator_a46ed641fd9f5549cbc39b6b89be14bd5}\label{class_point_cloud_generator_a46ed641fd9f5549cbc39b6b89be14bd5}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!setFilterpipe@{setFilterpipe}}
+\index{setFilterpipe@{setFilterpipe}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{setFilterpipe()}{setFilterpipe()}}
+{\footnotesize\ttfamily void Point\+Cloud\+Generator\+::set\+Filterpipe (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_filterpipe}{Filterpipe}}}]{filter\+Pipe }\end{DoxyParamCaption})}
+
+
+
+Used to set the filterpipe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_filterpipe}{Filterpipe}}} & filter\+Pipe\+: \mbox{\hyperlink{class_filterpipe}{Filterpipe}} object. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_point_cloud_generator_a46ed641fd9f5549cbc39b6b89be14bd5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_generator_a2c61c6cf3da94e593ce70f7e5484ede5}\label{class_point_cloud_generator_a2c61c6cf3da94e593ce70f7e5484ede5}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!setTransform@{setTransform}}
+\index{setTransform@{setTransform}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{setTransform()}{setTransform()}}
+{\footnotesize\ttfamily void Point\+Cloud\+Generator\+::set\+Transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_transform}{Transform}}}]{transform }\end{DoxyParamCaption})}
+
+
+
+Used to set the transform. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_transform}{Transform}}} & transfrom\+: \mbox{\hyperlink{class_transform}{Transform}} object. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_point_cloud_generator_a2c61c6cf3da94e593ce70f7e5484ede5_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_point_cloud_generator_afc4a00db3cb6f915d0872ccf041515a5}\label{class_point_cloud_generator_afc4a00db3cb6f915d0872ccf041515a5}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!filterPipe@{filterPipe}}
+\index{filterPipe@{filterPipe}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{filterPipe}{filterPipe}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_filterpipe}{Filterpipe}} Point\+Cloud\+Generator\+::filter\+Pipe\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_point_cloud_generator_a030bfe2bf5354556e44fa31f69f48d4f}\label{class_point_cloud_generator_a030bfe2bf5354556e44fa31f69f48d4f}} 
+\index{PointCloudGenerator@{PointCloudGenerator}!transform@{transform}}
+\index{transform@{transform}!PointCloudGenerator@{PointCloudGenerator}}
+\doxysubsubsection{\texorpdfstring{transform}{transform}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_transform}{Transform}} Point\+Cloud\+Generator\+::transform\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_generator_8h}{Point\+Cloud\+Generator.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_generator_8cpp}{Point\+Cloud\+Generator.\+cpp}}\end{DoxyCompactItemize}

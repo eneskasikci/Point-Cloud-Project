@@ -1,0 +1,180 @@
+\hypertarget{class_transform}{}\doxysection{Transform Class Reference}
+\label{class_transform}\index{Transform@{Transform}}
+
+
+A class that transorms a point cloud to a wanted coordinate system \textbackslash{}ndotransform(point p) Transforms points. \textbackslash{}ndotransform(point\+Cloud pc) sends the points in the point cloud to the other dotransform to transform them.  
+
+
+
+
+{\ttfamily \#include $<$Transform.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_transform_ac4324e6af2ccf16075b8f4c7b5266b91}{set\+Angles}} (Eigen\+::\+Vector3d angle)
+\begin{DoxyCompactList}\small\item\em Set\+Angles function that sets the angles array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_transform_a2a01ac3e5e6c2cc5ccb12e95830a1106}{set\+Trans}} (Eigen\+::\+Vector3d tran)
+\begin{DoxyCompactList}\small\item\em Set\+Trans function that sets the Trans array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_transform_a1e9c5a5172e735158f176341c538f0a7}{set\+Rotation}} ()
+\begin{DoxyCompactList}\small\item\em Set\+Rotation function that sets the Rotation Matrix. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_transform_aae0846e62a467d64e9dd683789575a42}{set\+Translation}} ()
+\begin{DoxyCompactList}\small\item\em Set\+Translation function that sets the Translation Matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_transform_a572261da3a59ae5f474b1c9aa59bf93e}{do\+Transform}} (\mbox{\hyperlink{class_point}{Point}} p)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_transform}{Transform}} function that transforms a point. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_transform_ad5f18c5e88a528484eb183e639a93967}{do\+Transform}} (\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} pc)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_transform}{Transform}} function that transforms a pointcloud. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that transorms a point cloud to a wanted coordinate system \textbackslash{}ndotransform(point p) Transforms points. \textbackslash{}ndotransform(point\+Cloud pc) sends the points in the point cloud to the other dotransform to transform them. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_transform_a572261da3a59ae5f474b1c9aa59bf93e}\label{class_transform_a572261da3a59ae5f474b1c9aa59bf93e}} 
+\index{Transform@{Transform}!doTransform@{doTransform}}
+\index{doTransform@{doTransform}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{doTransform()}{doTransform()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Transform\+::do\+Transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_transform}{Transform}} function that transforms a point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_point}{Point}}} & p\+: \mbox{\hyperlink{class_point}{Point}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_point}{Point}} 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{class_transform_a572261da3a59ae5f474b1c9aa59bf93e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{class_transform_a572261da3a59ae5f474b1c9aa59bf93e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_transform_ad5f18c5e88a528484eb183e639a93967}\label{class_transform_ad5f18c5e88a528484eb183e639a93967}} 
+\index{Transform@{Transform}!doTransform@{doTransform}}
+\index{doTransform@{doTransform}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{doTransform()}{doTransform()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Transform\+::do\+Transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}}]{pc }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_transform}{Transform}} function that transforms a pointcloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}} & pc\+: \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_transform_ad5f18c5e88a528484eb183e639a93967_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_transform_ac4324e6af2ccf16075b8f4c7b5266b91}\label{class_transform_ac4324e6af2ccf16075b8f4c7b5266b91}} 
+\index{Transform@{Transform}!setAngles@{setAngles}}
+\index{setAngles@{setAngles}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{setAngles()}{setAngles()}}
+{\footnotesize\ttfamily void Transform\+::set\+Angles (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector3d}]{angle }\end{DoxyParamCaption})}
+
+
+
+Set\+Angles function that sets the angles array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & array angle\+: angles. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{class_transform_ac4324e6af2ccf16075b8f4c7b5266b91_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_transform_a1e9c5a5172e735158f176341c538f0a7}\label{class_transform_a1e9c5a5172e735158f176341c538f0a7}} 
+\index{Transform@{Transform}!setRotation@{setRotation}}
+\index{setRotation@{setRotation}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{setRotation()}{setRotation()}}
+{\footnotesize\ttfamily void Transform\+::set\+Rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set\+Rotation function that sets the Rotation Matrix. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{class_transform_a1e9c5a5172e735158f176341c538f0a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_transform_a2a01ac3e5e6c2cc5ccb12e95830a1106}\label{class_transform_a2a01ac3e5e6c2cc5ccb12e95830a1106}} 
+\index{Transform@{Transform}!setTrans@{setTrans}}
+\index{setTrans@{setTrans}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{setTrans()}{setTrans()}}
+{\footnotesize\ttfamily void Transform\+::set\+Trans (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector3d}]{tran }\end{DoxyParamCaption})}
+
+
+
+Set\+Trans function that sets the Trans array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & array tr\+: trans. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{class_transform_a2a01ac3e5e6c2cc5ccb12e95830a1106_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_transform_aae0846e62a467d64e9dd683789575a42}\label{class_transform_aae0846e62a467d64e9dd683789575a42}} 
+\index{Transform@{Transform}!setTranslation@{setTranslation}}
+\index{setTranslation@{setTranslation}!Transform@{Transform}}
+\doxysubsubsection{\texorpdfstring{setTranslation()}{setTranslation()}}
+{\footnotesize\ttfamily void Transform\+::set\+Translation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set\+Translation function that sets the Translation Matrix. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{class_transform_aae0846e62a467d64e9dd683789575a42_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_transform_8h}{Transform.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_transform_8cpp}{Transform.\+cpp}}\end{DoxyCompactItemize}

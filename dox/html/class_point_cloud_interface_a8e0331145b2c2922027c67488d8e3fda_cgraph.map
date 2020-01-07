@@ -1,0 +1,4 @@
+<map id="PointCloudInterface::record" name="PointCloudInterface::record">
+<area shape="rect" id="node1" title="Used to save the pointcloud points to a file." alt="" coords="5,5,140,47"/>
+<area shape="rect" id="node2" href="$class_point_cloud_recorder.html#aeaa8d173932ea5d518524e0a3a4913dd" title="Saves the coordinates of the points in the point cloud to a text file. \nThis function returns true i..." alt="" coords="188,5,325,47"/>
+</map>

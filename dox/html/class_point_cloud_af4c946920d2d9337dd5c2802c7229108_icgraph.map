@@ -1,0 +1,12 @@
+<map id="PointCloud::getPointNumber" name="PointCloud::getPointNumber">
+<area shape="rect" id="node1" title="Returns total number of points in the Point Cloud." alt="" coords="311,188,497,215"/>
+<area shape="rect" id="node2" href="$class_transform.html#ad5f18c5e88a528484eb183e639a93967" title="Transform function that transforms a pointcloud." alt="" coords="104,5,263,32"/>
+<area shape="rect" id="node3" href="$class_radius_outlier_filter.html#ae12dc9f70ae2e85cb18c08bce4489575" title="Filter the points that don&#39;t have any neighbors. \nThis function edits the point cloud directly." alt="" coords="119,57,248,98"/>
+<area shape="rect" id="node5" href="$class_pass_through_filter.html#a32d74eea9db09315c2c9f1ed8b29f463" title="Used to filter out point outside of a given range." alt="" coords="116,122,251,163"/>
+<area shape="rect" id="node6" href="$_pass_through_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PassThroughFilter class." alt="" coords="5,159,56,185"/>
+<area shape="rect" id="node7" href="$class_point_cloud.html#accbd3e54af90bbbddb938ebdefb0ef88" title="Returns combined Point Cloud containingg points of two PointCL=louds." alt="" coords="109,239,257,265"/>
+<area shape="rect" id="node8" href="$class_point_cloud.html#a936c07f658fb7da914dd87ffb699fc8e" title="Used to copy the contents of one Point Cloud to another." alt="" coords="109,289,257,316"/>
+<area shape="rect" id="node9" href="$class_point_cloud_interface.html#a44c29345d3363fd28cc56e508886c573" title="Prints the point cloud to console." alt="" coords="116,341,251,382"/>
+<area shape="rect" id="node4" href="$_radius_outlier_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the RadiusOutlierFiltiler class." alt="" coords="5,64,56,91"/>
+<area shape="rect" id="node10" href="$_point_cloud_interface___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PointCloudInterface class." alt="" coords="5,348,56,375"/>
+</map>

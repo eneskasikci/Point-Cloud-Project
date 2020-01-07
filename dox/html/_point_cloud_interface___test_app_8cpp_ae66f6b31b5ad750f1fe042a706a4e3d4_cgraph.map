@@ -1,0 +1,21 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Test app to test the PointCloudInterface class." alt="" coords="5,364,56,391"/>
+<area shape="rect" id="node2" href="$class_filterpipe.html#af558f213c05ad6caf98d8ee2203919e4" title="Used to add all the filter objects to a vector." alt="" coords="124,5,252,32"/>
+<area shape="rect" id="node3" href="$class_point_cloud_interface.html#a5eb2000217df2852fe350d062a0d6f34" title="Adds a generator to the generators vector." alt="" coords="121,57,255,98"/>
+<area shape="rect" id="node4" href="$class_point_cloud_interface.html#ab4ea828b55a40ddde872457e9efdbeaa" title="Used to generate a pointcloud by refining it and transforming where necesssary." alt="" coords="121,122,255,163"/>
+<area shape="rect" id="node5" href="$class_depth_camera.html#a4823afbfc498d750deb2476df28aa1da" title="Function that gets the number of points in the file." alt="" coords="107,188,269,215"/>
+<area shape="rect" id="node6" href="$class_point_cloud_interface.html#a8e0331145b2c2922027c67488d8e3fda" title="Used to save the pointcloud points to a file." alt="" coords="121,239,255,281"/>
+<area shape="rect" id="node8" href="$class_transform.html#ac4324e6af2ccf16075b8f4c7b5266b91" title="SetAngles function that sets the angles array." alt="" coords="115,305,261,332"/>
+<area shape="rect" id="node9" href="$class_point_cloud_generator.html#a46ed641fd9f5549cbc39b6b89be14bd5" title="Used to set the filterpipe." alt="" coords="117,357,259,398"/>
+<area shape="rect" id="node10" href="$class_point_cloud_interface.html#a2535f35c2f43c555fee4500a34b15c5d" title="Used to set the recorder." alt="" coords="121,422,255,463"/>
+<area shape="rect" id="node11" href="$class_transform.html#a1e9c5a5172e735158f176341c538f0a7" title="SetRotation function that sets the Rotation Matrix." alt="" coords="111,488,265,515"/>
+<area shape="rect" id="node12" href="$class_transform.html#a2a01ac3e5e6c2cc5ccb12e95830a1106" title="SetTrans function that sets the Trans array." alt="" coords="119,539,257,565"/>
+<area shape="rect" id="node13" href="$class_point_cloud_generator.html#a2c61c6cf3da94e593ce70f7e5484ede5" title="Used to set the transform." alt="" coords="117,590,259,631"/>
+<area shape="rect" id="node14" href="$class_transform.html#aae0846e62a467d64e9dd683789575a42" title="SetTranslation function that sets the Translation Matrix." alt="" coords="104,656,272,683"/>
+<area shape="rect" id="node15" href="$class_point_cloud_interface.html#a44c29345d3363fd28cc56e508886c573" title="Prints the point cloud to console." alt="" coords="121,707,255,749"/>
+<area shape="rect" id="node7" href="$class_point_cloud_recorder.html#aeaa8d173932ea5d518524e0a3a4913dd" title="Saves the coordinates of the points in the point cloud to a text file. \nThis function returns true i..." alt="" coords="345,239,482,281"/>
+<area shape="rect" id="node16" href="$class_point_cloud.html#af4c946920d2d9337dd5c2802c7229108" title="Returns total number of points in the Point Cloud." alt="" coords="320,639,507,665"/>
+<area shape="rect" id="node17" href="$class_point_cloud.html#a8689c021a12c0b7e0c33d7c285cc4f62" title="Used to access x coordinate of a point in the cloud." alt="" coords="347,689,480,716"/>
+<area shape="rect" id="node18" href="$class_point_cloud.html#aeb737ce25950d8a8de23afab4bb50635" title="Used to access y coordinate of a point in the cloud." alt="" coords="346,740,481,767"/>
+<area shape="rect" id="node19" href="$class_point_cloud.html#aba221c5f930132e06b02bd8ba887b64f" title="Used to access z coordinate of a point in the cloud." alt="" coords="347,791,480,817"/>
+</map>

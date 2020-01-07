@@ -1,0 +1,9 @@
+<map id="PointCloud::returnX" name="PointCloud::returnX">
+<area shape="rect" id="node1" title="Used to access x coordinate of a point in the cloud." alt="" coords="287,107,420,134"/>
+<area shape="rect" id="node2" href="$class_radius_outlier_filter.html#ae12dc9f70ae2e85cb18c08bce4489575" title="Filter the points that don&#39;t have any neighbors. \nThis function edits the point cloud directly." alt="" coords="107,5,236,47"/>
+<area shape="rect" id="node4" href="$class_pass_through_filter.html#a32d74eea9db09315c2c9f1ed8b29f463" title="Used to filter out point outside of a given range." alt="" coords="104,71,239,112"/>
+<area shape="rect" id="node5" href="$_pass_through_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PassThroughFilter class." alt="" coords="5,107,56,134"/>
+<area shape="rect" id="node6" href="$class_point_cloud_interface.html#a44c29345d3363fd28cc56e508886c573" title="Prints the point cloud to console." alt="" coords="104,188,239,229"/>
+<area shape="rect" id="node3" href="$_radius_outlier_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the RadiusOutlierFiltiler class." alt="" coords="5,13,56,39"/>
+<area shape="rect" id="node7" href="$_point_cloud_interface___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PointCloudInterface class." alt="" coords="5,195,56,222"/>
+</map>

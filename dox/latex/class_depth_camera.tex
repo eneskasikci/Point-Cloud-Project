@@ -1,0 +1,136 @@
+\hypertarget{class_depth_camera}{}\doxysection{Depth\+Camera Class Reference}
+\label{class_depth_camera}\index{DepthCamera@{DepthCamera}}
+
+
+This is used to read the points from the file and saves them in a pointcloud. \textbackslash{}n\+When \mbox{\hyperlink{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}{capture()}} is called, the points are read and saved into a point cloud.  
+
+
+
+
+{\ttfamily \#include $<$Depth\+Camera.\+h$>$}
+
+
+
+Inheritance diagram for Depth\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_depth_camera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Depth\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_depth_camera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_depth_camera_a09b619bfa167b0aa844ddf4ba350e825}{Depth\+Camera}} (string filename\+\_\+)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_depth_camera}{Depth\+Camera}} constructor that takes the name of the file to read from. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}{capture}} ()
+\begin{DoxyCompactList}\small\item\em Read the coordinates from a flile and saves them in a point cloud. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_depth_camera_a4823afbfc498d750deb2476df28aa1da}{Get\+Rows}} ()
+\begin{DoxyCompactList}\small\item\em Function that gets the number of points in the file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_depth_camera_a94a4356b2ee9786b732a2fd43d512666}{capture\+For}} ()
+\begin{DoxyCompactList}\small\item\em Read the coordinates from a file,filter them,transform them and saves them in a point cloud. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This is used to read the points from the file and saves them in a pointcloud. \textbackslash{}n\+When \mbox{\hyperlink{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}{capture()}} is called, the points are read and saved into a point cloud. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_depth_camera_a09b619bfa167b0aa844ddf4ba350e825}\label{class_depth_camera_a09b619bfa167b0aa844ddf4ba350e825}} 
+\index{DepthCamera@{DepthCamera}!DepthCamera@{DepthCamera}}
+\index{DepthCamera@{DepthCamera}!DepthCamera@{DepthCamera}}
+\doxysubsubsection{\texorpdfstring{DepthCamera()}{DepthCamera()}}
+{\footnotesize\ttfamily Depth\+Camera\+::\+Depth\+Camera (\begin{DoxyParamCaption}\item[{string}]{filename\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_depth_camera}{Depth\+Camera}} constructor that takes the name of the file to read from. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & filename\+\_\+\+: file name. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}\label{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f}} 
+\index{DepthCamera@{DepthCamera}!capture@{capture}}
+\index{capture@{capture}!DepthCamera@{DepthCamera}}
+\doxysubsubsection{\texorpdfstring{capture()}{capture()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Depth\+Camera\+::capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read the coordinates from a flile and saves them in a point cloud. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_point_cloud_generator_a74ae47dc63f580ffc601cac6a0254870}{Point\+Cloud\+Generator}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{class_depth_camera_a3fde461a9d8e2d27c20957ea4d55456f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_depth_camera_a94a4356b2ee9786b732a2fd43d512666}\label{class_depth_camera_a94a4356b2ee9786b732a2fd43d512666}} 
+\index{DepthCamera@{DepthCamera}!captureFor@{captureFor}}
+\index{captureFor@{captureFor}!DepthCamera@{DepthCamera}}
+\doxysubsubsection{\texorpdfstring{captureFor()}{captureFor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Depth\+Camera\+::capture\+For (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read the coordinates from a file,filter them,transform them and saves them in a point cloud. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_point_cloud_generator_a988376c55a3c093a91cdd073104c01d4}{Point\+Cloud\+Generator}}.
+
+\mbox{\Hypertarget{class_depth_camera_a4823afbfc498d750deb2476df28aa1da}\label{class_depth_camera_a4823afbfc498d750deb2476df28aa1da}} 
+\index{DepthCamera@{DepthCamera}!GetRows@{GetRows}}
+\index{GetRows@{GetRows}!DepthCamera@{DepthCamera}}
+\doxysubsubsection{\texorpdfstring{GetRows()}{GetRows()}}
+{\footnotesize\ttfamily int Depth\+Camera\+::\+Get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that gets the number of points in the file. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_depth_camera_a4823afbfc498d750deb2476df28aa1da_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_depth_camera_8h}{Depth\+Camera.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_depth_camera_8cpp}{Depth\+Camera.\+cpp}}\end{DoxyCompactItemize}

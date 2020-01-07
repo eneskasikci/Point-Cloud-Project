@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Test app to test the PassThroughFilter class." alt="" coords="5,129,56,156"/>
+<area shape="rect" id="node2" href="$class_pass_through_filter.html#a32d74eea9db09315c2c9f1ed8b29f463" title="Used to filter out point outside of a given range." alt="" coords="104,93,239,134"/>
+<area shape="rect" id="node3" href="$class_point_cloud.html#af4c946920d2d9337dd5c2802c7229108" title="Returns total number of points in the Point Cloud." alt="" coords="287,5,473,32"/>
+<area shape="rect" id="node4" href="$class_point_cloud.html#a8689c021a12c0b7e0c33d7c285cc4f62" title="Used to access x coordinate of a point in the cloud." alt="" coords="313,85,447,112"/>
+<area shape="rect" id="node5" href="$class_point_cloud.html#aeb737ce25950d8a8de23afab4bb50635" title="Used to access y coordinate of a point in the cloud." alt="" coords="313,143,447,169"/>
+<area shape="rect" id="node6" href="$class_point_cloud.html#aba221c5f930132e06b02bd8ba887b64f" title="Used to access z coordinate of a point in the cloud." alt="" coords="313,204,447,231"/>
+<area shape="rect" id="node7" href="$class_point_cloud.html#a8b0ed0403d742ead654ebc35fb1ac429" title="Used to set coordinates of a point in the cloud." alt="" coords="306,255,454,281"/>
+</map>

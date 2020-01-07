@@ -1,0 +1,8 @@
+<map id="PassThroughFilter::filter" name="PassThroughFilter::filter">
+<area shape="rect" id="node1" title="Used to filter out point outside of a given range." alt="" coords="5,99,140,141"/>
+<area shape="rect" id="node2" href="$class_point_cloud.html#af4c946920d2d9337dd5c2802c7229108" title="Returns total number of points in the Point Cloud." alt="" coords="188,5,375,32"/>
+<area shape="rect" id="node3" href="$class_point_cloud.html#a8689c021a12c0b7e0c33d7c285cc4f62" title="Used to access x coordinate of a point in the cloud." alt="" coords="215,56,348,83"/>
+<area shape="rect" id="node4" href="$class_point_cloud.html#aeb737ce25950d8a8de23afab4bb50635" title="Used to access y coordinate of a point in the cloud." alt="" coords="214,107,349,133"/>
+<area shape="rect" id="node5" href="$class_point_cloud.html#aba221c5f930132e06b02bd8ba887b64f" title="Used to access z coordinate of a point in the cloud." alt="" coords="215,157,348,184"/>
+<area shape="rect" id="node6" href="$class_point_cloud.html#a8b0ed0403d742ead654ebc35fb1ac429" title="Used to set coordinates of a point in the cloud." alt="" coords="207,208,355,235"/>
+</map>

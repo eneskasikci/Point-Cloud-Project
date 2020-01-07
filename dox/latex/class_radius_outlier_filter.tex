@@ -1,0 +1,111 @@
+\hypertarget{class_radius_outlier_filter}{}\doxysection{Radius\+Outlier\+Filter Class Reference}
+\label{class_radius_outlier_filter}\index{RadiusOutlierFilter@{RadiusOutlierFilter}}
+
+
+A class that filters out points of a point cloud that don\textquotesingle{}t have any neighbors \textbackslash{}nfilter() filters out unwanted points.  
+
+
+
+
+{\ttfamily \#include $<$Radius\+Outlier\+Filter.\+h$>$}
+
+
+
+Inheritance diagram for Radius\+Outlier\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{class_radius_outlier_filter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Radius\+Outlier\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{class_radius_outlier_filter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_radius_outlier_filter_a14a5af1b1c4c7694304aaeef6c3be6d9}{Radius\+Outlier\+Filter}} (double radius\+\_\+)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_radius_outlier_filter}{Radius\+Outlier\+Filter}} constructor that takes the radius to filter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_radius_outlier_filter_a19799d82218654df5f048f1ad9d551b8}{$\sim$\+Radius\+Outlier\+Filter}} ()
+\item 
+void \mbox{\hyperlink{class_radius_outlier_filter_ae12dc9f70ae2e85cb18c08bce4489575}{filter}} (\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&pc) override
+\begin{DoxyCompactList}\small\item\em Filter the points that don\textquotesingle{}t have any neighbors. \textbackslash{}n\+This function edits the point cloud directly. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that filters out points of a point cloud that don\textquotesingle{}t have any neighbors \textbackslash{}nfilter() filters out unwanted points. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_radius_outlier_filter_a14a5af1b1c4c7694304aaeef6c3be6d9}\label{class_radius_outlier_filter_a14a5af1b1c4c7694304aaeef6c3be6d9}} 
+\index{RadiusOutlierFilter@{RadiusOutlierFilter}!RadiusOutlierFilter@{RadiusOutlierFilter}}
+\index{RadiusOutlierFilter@{RadiusOutlierFilter}!RadiusOutlierFilter@{RadiusOutlierFilter}}
+\doxysubsubsection{\texorpdfstring{RadiusOutlierFilter()}{RadiusOutlierFilter()}}
+{\footnotesize\ttfamily Radius\+Outlier\+Filter\+::\+Radius\+Outlier\+Filter (\begin{DoxyParamCaption}\item[{double}]{radius\+\_\+ = {\ttfamily 25} }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_radius_outlier_filter}{Radius\+Outlier\+Filter}} constructor that takes the radius to filter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & radius\+: radius. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_radius_outlier_filter_a19799d82218654df5f048f1ad9d551b8}\label{class_radius_outlier_filter_a19799d82218654df5f048f1ad9d551b8}} 
+\index{RadiusOutlierFilter@{RadiusOutlierFilter}!````~RadiusOutlierFilter@{$\sim$RadiusOutlierFilter}}
+\index{````~RadiusOutlierFilter@{$\sim$RadiusOutlierFilter}!RadiusOutlierFilter@{RadiusOutlierFilter}}
+\doxysubsubsection{\texorpdfstring{$\sim$RadiusOutlierFilter()}{~RadiusOutlierFilter()}}
+{\footnotesize\ttfamily Radius\+Outlier\+Filter\+::$\sim$\+Radius\+Outlier\+Filter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_radius_outlier_filter_ae12dc9f70ae2e85cb18c08bce4489575}\label{class_radius_outlier_filter_ae12dc9f70ae2e85cb18c08bce4489575}} 
+\index{RadiusOutlierFilter@{RadiusOutlierFilter}!filter@{filter}}
+\index{filter@{filter}!RadiusOutlierFilter@{RadiusOutlierFilter}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}}
+{\footnotesize\ttfamily void Radius\+Outlier\+Filter\+::filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&}]{pc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Filter the points that don\textquotesingle{}t have any neighbors. \textbackslash{}n\+This function edits the point cloud directly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}\& pc\+: a point cloud. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_point_cloud_filter_a2c653e106fc231258373ffbd7379c240}{Point\+Cloud\+Filter}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_radius_outlier_filter_ae12dc9f70ae2e85cb18c08bce4489575_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_radius_outlier_filter_ae12dc9f70ae2e85cb18c08bce4489575_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_radius_outlier_filter_8h}{Radius\+Outlier\+Filter.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_radius_outlier_filter_8cpp}{Radius\+Outlier\+Filter.\+cpp}}\end{DoxyCompactItemize}

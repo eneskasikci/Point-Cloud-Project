@@ -1,0 +1,4 @@
+<map id="PassThroughFilter::filter" name="PassThroughFilter::filter">
+<area shape="rect" id="node1" title="Used to filter out point outside of a given range." alt="" coords="104,5,239,47"/>
+<area shape="rect" id="node2" href="$_pass_through_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PassThroughFilter class." alt="" coords="5,13,56,39"/>
+</map>

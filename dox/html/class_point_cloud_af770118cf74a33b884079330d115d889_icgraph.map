@@ -1,0 +1,6 @@
+<map id="PointCloud::returnPoint" name="PointCloud::returnPoint">
+<area shape="rect" id="node1" title="Used to access specific point in the cloud." alt="" coords="311,35,467,61"/>
+<area shape="rect" id="node2" href="$class_transform.html#ad5f18c5e88a528484eb183e639a93967" title="Transform function that transforms a pointcloud." alt="" coords="104,5,263,32"/>
+<area shape="rect" id="node3" href="$class_radius_outlier_filter.html#ae12dc9f70ae2e85cb18c08bce4489575" title="Filter the points that don&#39;t have any neighbors. \nThis function edits the point cloud directly." alt="" coords="119,57,248,98"/>
+<area shape="rect" id="node4" href="$_radius_outlier_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the RadiusOutlierFiltiler class." alt="" coords="5,64,56,91"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Test app to test the PointCloudRecorder class." alt="" coords="5,64,56,91"/>
+<area shape="rect" id="node2" href="$class_point_cloud.html#af4c946920d2d9337dd5c2802c7229108" title="Returns total number of points in the Point Cloud." alt="" coords="104,5,291,32"/>
+<area shape="rect" id="node3" href="$class_point_cloud_recorder.html#aeaa8d173932ea5d518524e0a3a4913dd" title="Saves the coordinates of the points in the point cloud to a text file. \nThis function returns true i..." alt="" coords="129,57,266,98"/>
+<area shape="rect" id="node4" href="$class_point_cloud.html#a8b0ed0403d742ead654ebc35fb1ac429" title="Used to set coordinates of a point in the cloud." alt="" coords="123,123,271,149"/>
+</map>

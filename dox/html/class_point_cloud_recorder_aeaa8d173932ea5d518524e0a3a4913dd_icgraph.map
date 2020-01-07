@@ -1,0 +1,6 @@
+<map id="PointCloudRecorder::save" name="PointCloudRecorder::save">
+<area shape="rect" id="node1" title="Saves the coordinates of the points in the point cloud to a text file. \nThis function returns true i..." alt="" coords="287,27,424,69"/>
+<area shape="rect" id="node2" href="$_point_cloud_recorder___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PointCloudRecorder class." alt="" coords="146,5,197,32"/>
+<area shape="rect" id="node3" href="$class_point_cloud_interface.html#a8e0331145b2c2922027c67488d8e3fda" title="Used to save the pointcloud points to a file." alt="" coords="104,57,239,98"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,64,56,91"/>
+</map>

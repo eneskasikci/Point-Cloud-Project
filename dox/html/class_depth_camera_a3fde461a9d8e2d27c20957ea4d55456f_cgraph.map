@@ -1,0 +1,4 @@
+<map id="DepthCamera::capture" name="DepthCamera::capture">
+<area shape="rect" id="node1" title="Read the coordinates from a flile and saves them in a point cloud." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node2" href="$class_point_cloud.html#a8b0ed0403d742ead654ebc35fb1ac429" title="Used to set coordinates of a point in the cloud." alt="" coords="205,5,353,32"/>
+</map>

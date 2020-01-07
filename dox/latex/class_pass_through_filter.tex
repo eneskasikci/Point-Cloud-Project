@@ -1,0 +1,125 @@
+\hypertarget{class_pass_through_filter}{}\doxysection{Pass\+Through\+Filter Class Reference}
+\label{class_pass_through_filter}\index{PassThroughFilter@{PassThroughFilter}}
+
+
+A class that filters out points of a point cloud that lie outside of a given range \textbackslash{}nfilter() filters out unwanted points.  
+
+
+
+
+{\ttfamily \#include $<$Pass\+Through\+Filter.\+h$>$}
+
+
+
+Inheritance diagram for Pass\+Through\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_pass_through_filter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pass\+Through\+Filter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_pass_through_filter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pass_through_filter_aab56409d57f4ce6d2a126e44f540a9b8}{Pass\+Through\+Filter}} (double, double, double, double, double, double)
+\begin{DoxyCompactList}\small\item\em Pass\+Through\+Fılter constructor that takes the upper and lower limits as paramaters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pass_through_filter_a32d74eea9db09315c2c9f1ed8b29f463}{filter}} (\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&) override
+\begin{DoxyCompactList}\small\item\em Used to filter out point outside of a given range. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_pass_through_filter_aac7accfcda7e3116c3ad820e2bc4e5d4}{$\sim$\+Pass\+Through\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_pass_through_filter}{Pass\+Through\+Filter}} deconstructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that filters out points of a point cloud that lie outside of a given range \textbackslash{}nfilter() filters out unwanted points. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_pass_through_filter_aab56409d57f4ce6d2a126e44f540a9b8}\label{class_pass_through_filter_aab56409d57f4ce6d2a126e44f540a9b8}} 
+\index{PassThroughFilter@{PassThroughFilter}!PassThroughFilter@{PassThroughFilter}}
+\index{PassThroughFilter@{PassThroughFilter}!PassThroughFilter@{PassThroughFilter}}
+\doxysubsubsection{\texorpdfstring{PassThroughFilter()}{PassThroughFilter()}}
+{\footnotesize\ttfamily Pass\+Through\+Filter\+::\+Pass\+Through\+Filter (\begin{DoxyParamCaption}\item[{double}]{xmin = {\ttfamily 0},  }\item[{double}]{xmax = {\ttfamily 0},  }\item[{double}]{ymin = {\ttfamily 0},  }\item[{double}]{ymax = {\ttfamily 0},  }\item[{double}]{zmin = {\ttfamily 0},  }\item[{double}]{zmax = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Pass\+Through\+Fılter constructor that takes the upper and lower limits as paramaters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & xmin\+: Lower limit for x. \\
+\hline
+{\em double} & xmax\+: Upper limit for x \\
+\hline
+{\em double} & ymin\+: Lower limit for y. \\
+\hline
+{\em double} & ymax\+: Upper limit for y \\
+\hline
+{\em double} & zmin\+: Lower limit for z. \\
+\hline
+{\em double} & zmax\+: Upper limit for z \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pass_through_filter_aac7accfcda7e3116c3ad820e2bc4e5d4}\label{class_pass_through_filter_aac7accfcda7e3116c3ad820e2bc4e5d4}} 
+\index{PassThroughFilter@{PassThroughFilter}!````~PassThroughFilter@{$\sim$PassThroughFilter}}
+\index{````~PassThroughFilter@{$\sim$PassThroughFilter}!PassThroughFilter@{PassThroughFilter}}
+\doxysubsubsection{\texorpdfstring{$\sim$PassThroughFilter()}{~PassThroughFilter()}}
+{\footnotesize\ttfamily Pass\+Through\+Filter\+::$\sim$\+Pass\+Through\+Filter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_pass_through_filter}{Pass\+Through\+Filter}} deconstructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pass_through_filter_a32d74eea9db09315c2c9f1ed8b29f463}\label{class_pass_through_filter_a32d74eea9db09315c2c9f1ed8b29f463}} 
+\index{PassThroughFilter@{PassThroughFilter}!filter@{filter}}
+\index{filter@{filter}!PassThroughFilter@{PassThroughFilter}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}}
+{\footnotesize\ttfamily void Pass\+Through\+Filter\+::filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&}]{pc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Used to filter out point outside of a given range. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Point\+Cloud\&} & pc\+: \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_point_cloud_filter_a2c653e106fc231258373ffbd7379c240}{Point\+Cloud\+Filter}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pass_through_filter_a32d74eea9db09315c2c9f1ed8b29f463_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_pass_through_filter_a32d74eea9db09315c2c9f1ed8b29f463_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_pass_through_filter_8h}{Pass\+Through\+Filter.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_pass_through_filter_8cpp}{Pass\+Through\+Filter.\+cpp}}\end{DoxyCompactItemize}

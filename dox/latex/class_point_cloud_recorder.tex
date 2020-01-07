@@ -1,0 +1,86 @@
+\hypertarget{class_point_cloud_recorder}{}\doxysection{Point\+Cloud\+Recorder Class Reference}
+\label{class_point_cloud_recorder}\index{PointCloudRecorder@{PointCloudRecorder}}
+
+
+This is used to save the points in apoint clouds to a file. \textbackslash{}n\+When \mbox{\hyperlink{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd}{save()}} is called, the points of the point cloud gicen as a paramtere are saved to a text file. \textbackslash{}n\+Returns true if it saves successfully.  
+
+
+
+
+{\ttfamily \#include $<$Point\+Cloud\+Recorder.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_cloud_recorder_acb896e15a4cce21320c77ece9cfe3fd5}{Point\+Cloud\+Recorder}} (string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} constructor that takes the name of the file to save to. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud_recorder_ae4a1cf76276e6be877b5e2035c01fff4}{$\sim$\+Point\+Cloud\+Recorder}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} desstructor \textbackslash{}n\+Closes the save file. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd}{save}} (const \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&)
+\begin{DoxyCompactList}\small\item\em Saves the coordinates of the points in the point cloud to a text file. \textbackslash{}n\+This function returns true if the operation was succesful and false if otherwise. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is used to save the points in apoint clouds to a file. \textbackslash{}n\+When \mbox{\hyperlink{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd}{save()}} is called, the points of the point cloud gicen as a paramtere are saved to a text file. \textbackslash{}n\+Returns true if it saves successfully. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_cloud_recorder_acb896e15a4cce21320c77ece9cfe3fd5}\label{class_point_cloud_recorder_acb896e15a4cce21320c77ece9cfe3fd5}} 
+\index{PointCloudRecorder@{PointCloudRecorder}!PointCloudRecorder@{PointCloudRecorder}}
+\index{PointCloudRecorder@{PointCloudRecorder}!PointCloudRecorder@{PointCloudRecorder}}
+\doxysubsubsection{\texorpdfstring{PointCloudRecorder()}{PointCloudRecorder()}}
+{\footnotesize\ttfamily Point\+Cloud\+Recorder\+::\+Point\+Cloud\+Recorder (\begin{DoxyParamCaption}\item[{string}]{fname = {\ttfamily \char`\"{}PointMap.txt\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} constructor that takes the name of the file to save to. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & fname\+: file name. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_point_cloud_recorder_ae4a1cf76276e6be877b5e2035c01fff4}\label{class_point_cloud_recorder_ae4a1cf76276e6be877b5e2035c01fff4}} 
+\index{PointCloudRecorder@{PointCloudRecorder}!````~PointCloudRecorder@{$\sim$PointCloudRecorder}}
+\index{````~PointCloudRecorder@{$\sim$PointCloudRecorder}!PointCloudRecorder@{PointCloudRecorder}}
+\doxysubsubsection{\texorpdfstring{$\sim$PointCloudRecorder()}{~PointCloudRecorder()}}
+{\footnotesize\ttfamily Point\+Cloud\+Recorder\+::$\sim$\+Point\+Cloud\+Recorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}} desstructor \textbackslash{}n\+Closes the save file. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd}\label{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd}} 
+\index{PointCloudRecorder@{PointCloudRecorder}!save@{save}}
+\index{save@{save}!PointCloudRecorder@{PointCloudRecorder}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily bool Point\+Cloud\+Recorder\+::save (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&}]{pc }\end{DoxyParamCaption})}
+
+
+
+Saves the coordinates of the points in the point cloud to a text file. \textbackslash{}n\+This function returns true if the operation was succesful and false if otherwise. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}\& pc\+: a point cloud. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_recorder_aeaa8d173932ea5d518524e0a3a4913dd_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_recorder_8h}{Point\+Cloud\+Recorder.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_recorder_8cpp}{Point\+Cloud\+Recorder.\+cpp}}\end{DoxyCompactItemize}

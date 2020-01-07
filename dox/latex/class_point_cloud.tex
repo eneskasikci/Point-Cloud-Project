@@ -1,0 +1,337 @@
+\hypertarget{class_point_cloud}{}\doxysection{Point\+Cloud Class Reference}
+\label{class_point_cloud}\index{PointCloud@{PointCloud}}
+
+
+A class that holds an array of points to form a \char`\"{}cloud\char`\"{}. \textbackslash{}n\+Holds the points it has in a dynamically created array of points. The array\textquotesingle{}s size is taken as a parameter in the constructor function when the object is created. + operator, returns a single point cloud with points that both point clouds have. ~\newline
+= operator, allows a point cloud to copy another one and take all of its points and overwrites its members.  
+
+
+
+
+{\ttfamily \#include $<$Point\+Cloud.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_cloud_a11c9c24b5f6d04ab42f44bedeb8e8955}{Point\+Cloud}} (int)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} constructor that takes the number of points as a parameter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud_a7d6f79928b0877770cd1af2238a7d62e}{Point\+Cloud}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} default constructor that sets the number of points to 0. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_a8b0ed0403d742ead654ebc35fb1ac429}{set\+Points}} (int, double, double, double)
+\begin{DoxyCompactList}\small\item\em Used to set coordinates of a point in the cloud. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud_a92a83712cd5d3f732effd530ff9fe67c}{$\sim$\+Point\+Cloud}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} deconstructor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_point_cloud_af4c946920d2d9337dd5c2802c7229108}{get\+Point\+Number}} () const
+\begin{DoxyCompactList}\small\item\em Returns total number of points in the \mbox{\hyperlink{class_point}{Point}} Cloud. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \mbox{\hyperlink{class_point_cloud_accbd3e54af90bbbddb938ebdefb0ef88}{operator+}} (\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&)
+\begin{DoxyCompactList}\small\item\em Returns combined \mbox{\hyperlink{class_point}{Point}} Cloud containingg points of two Point\+CL=louds. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_a936c07f658fb7da914dd87ffb699fc8e}{operator=}} (const \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&)
+\begin{DoxyCompactList}\small\item\em Used to copy the contents of one \mbox{\hyperlink{class_point}{Point}} Cloud to another. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_cloud_aeb737ce25950d8a8de23afab4bb50635}{returnY}} (int i)
+\begin{DoxyCompactList}\small\item\em Used to access y coordinate of a point in the cloud. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_cloud_aba221c5f930132e06b02bd8ba887b64f}{returnZ}} (int i)
+\begin{DoxyCompactList}\small\item\em Used to access z coordinate of a point in the cloud. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_cloud_a8689c021a12c0b7e0c33d7c285cc4f62}{returnX}} (int i)
+\begin{DoxyCompactList}\small\item\em Used to access x coordinate of a point in the cloud. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_cloud_af770118cf74a33b884079330d115d889}{return\+Point}} (int i)
+\begin{DoxyCompactList}\small\item\em Used to access specific point in the cloud. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_cloud_a202d9ded0447fb78e3b4d656cb32b918}{set\+Point\+Number}} (int)
+\begin{DoxyCompactList}\small\item\em Used to set the number of points in the cloud. \end{DoxyCompactList}\item 
+list$<$ \mbox{\hyperlink{class_point}{Point}} $>$ \mbox{\hyperlink{class_point_cloud_ae93086d414eff0b2faa4ae27fda3fe3c}{get\+Cloud}} (void)
+\begin{DoxyCompactList}\small\item\em Returns the points list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_point_cloud_ade1ce1fa6a748f42e99f0c2fc8356ba3}{Point\+Cloud\+Recorder}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that holds an array of points to form a \char`\"{}cloud\char`\"{}. \textbackslash{}n\+Holds the points it has in a dynamically created array of points. The array\textquotesingle{}s size is taken as a parameter in the constructor function when the object is created. + operator, returns a single point cloud with points that both point clouds have. ~\newline
+= operator, allows a point cloud to copy another one and take all of its points and overwrites its members. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_cloud_a11c9c24b5f6d04ab42f44bedeb8e8955}\label{class_point_cloud_a11c9c24b5f6d04ab42f44bedeb8e8955}} 
+\index{PointCloud@{PointCloud}!PointCloud@{PointCloud}}
+\index{PointCloud@{PointCloud}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{PointCloud()}{PointCloud()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Point\+Cloud\+::\+Point\+Cloud (\begin{DoxyParamCaption}\item[{int}]{n = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} constructor that takes the number of points as a parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & n\+: number of points. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_point_cloud_a7d6f79928b0877770cd1af2238a7d62e}\label{class_point_cloud_a7d6f79928b0877770cd1af2238a7d62e}} 
+\index{PointCloud@{PointCloud}!PointCloud@{PointCloud}}
+\index{PointCloud@{PointCloud}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{PointCloud()}{PointCloud()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Point\+Cloud\+::\+Point\+Cloud (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} default constructor that sets the number of points to 0. 
+
+\mbox{\Hypertarget{class_point_cloud_a92a83712cd5d3f732effd530ff9fe67c}\label{class_point_cloud_a92a83712cd5d3f732effd530ff9fe67c}} 
+\index{PointCloud@{PointCloud}!````~PointCloud@{$\sim$PointCloud}}
+\index{````~PointCloud@{$\sim$PointCloud}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{$\sim$PointCloud()}{~PointCloud()}}
+{\footnotesize\ttfamily Point\+Cloud\+::$\sim$\+Point\+Cloud (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} deconstructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_cloud_ae93086d414eff0b2faa4ae27fda3fe3c}\label{class_point_cloud_ae93086d414eff0b2faa4ae27fda3fe3c}} 
+\index{PointCloud@{PointCloud}!getCloud@{getCloud}}
+\index{getCloud@{getCloud}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{getCloud()}{getCloud()}}
+{\footnotesize\ttfamily list$<$ \mbox{\hyperlink{class_point}{Point}} $>$ Point\+Cloud\+::get\+Cloud (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Returns the points list. 
+
+\begin{DoxyReturn}{Returns}
+points 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_point_cloud_af4c946920d2d9337dd5c2802c7229108}\label{class_point_cloud_af4c946920d2d9337dd5c2802c7229108}} 
+\index{PointCloud@{PointCloud}!getPointNumber@{getPointNumber}}
+\index{getPointNumber@{getPointNumber}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{getPointNumber()}{getPointNumber()}}
+{\footnotesize\ttfamily int Point\+Cloud\+::get\+Point\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns total number of points in the \mbox{\hyperlink{class_point}{Point}} Cloud. 
+
+\begin{DoxyReturn}{Returns}
+point\+Number 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_af4c946920d2d9337dd5c2802c7229108_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_accbd3e54af90bbbddb938ebdefb0ef88}\label{class_point_cloud_accbd3e54af90bbbddb938ebdefb0ef88}} 
+\index{PointCloud@{PointCloud}!operator+@{operator+}}
+\index{operator+@{operator+}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} Point\+Cloud\+::operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&}]{pc2 }\end{DoxyParamCaption})}
+
+
+
+Returns combined \mbox{\hyperlink{class_point}{Point}} Cloud containingg points of two Point\+CL=louds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}\& pc2\+: \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} to be combined with current one. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+tmp 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_accbd3e54af90bbbddb938ebdefb0ef88_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_a936c07f658fb7da914dd87ffb699fc8e}\label{class_point_cloud_a936c07f658fb7da914dd87ffb699fc8e}} 
+\index{PointCloud@{PointCloud}!operator=@{operator=}}
+\index{operator=@{operator=}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Point\+Cloud\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}} \&}]{pc2 }\end{DoxyParamCaption})}
+
+
+
+Used to copy the contents of one \mbox{\hyperlink{class_point}{Point}} Cloud to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \mbox{\hyperlink{class_point_cloud}{Point\+Cloud}}\& pc2 \+: The point cloud to be copied. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_a936c07f658fb7da914dd87ffb699fc8e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_af770118cf74a33b884079330d115d889}\label{class_point_cloud_af770118cf74a33b884079330d115d889}} 
+\index{PointCloud@{PointCloud}!returnPoint@{returnPoint}}
+\index{returnPoint@{returnPoint}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{returnPoint()}{returnPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point\+Cloud\+::return\+Point (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Used to access specific point in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & i\+: point identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+points\mbox{[}i\mbox{]} 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_af770118cf74a33b884079330d115d889_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_a8689c021a12c0b7e0c33d7c285cc4f62}\label{class_point_cloud_a8689c021a12c0b7e0c33d7c285cc4f62}} 
+\index{PointCloud@{PointCloud}!returnX@{returnX}}
+\index{returnX@{returnX}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{returnX()}{returnX()}}
+{\footnotesize\ttfamily double Point\+Cloud\+::returnX (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Used to access x coordinate of a point in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & i\+: point identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+points\mbox{[}i\mbox{]}.get\+X() 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_a8689c021a12c0b7e0c33d7c285cc4f62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_aeb737ce25950d8a8de23afab4bb50635}\label{class_point_cloud_aeb737ce25950d8a8de23afab4bb50635}} 
+\index{PointCloud@{PointCloud}!returnY@{returnY}}
+\index{returnY@{returnY}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{returnY()}{returnY()}}
+{\footnotesize\ttfamily double Point\+Cloud\+::returnY (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Used to access y coordinate of a point in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & i\+: point identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+points\mbox{[}i\mbox{]}.get\+Y() 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_aeb737ce25950d8a8de23afab4bb50635_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_aba221c5f930132e06b02bd8ba887b64f}\label{class_point_cloud_aba221c5f930132e06b02bd8ba887b64f}} 
+\index{PointCloud@{PointCloud}!returnZ@{returnZ}}
+\index{returnZ@{returnZ}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{returnZ()}{returnZ()}}
+{\footnotesize\ttfamily double Point\+Cloud\+::returnZ (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Used to access z coordinate of a point in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & i\+: point identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+points\mbox{[}i\mbox{]}.get\+Z() 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_aba221c5f930132e06b02bd8ba887b64f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_point_cloud_a202d9ded0447fb78e3b4d656cb32b918}\label{class_point_cloud_a202d9ded0447fb78e3b4d656cb32b918}} 
+\index{PointCloud@{PointCloud}!setPointNumber@{setPointNumber}}
+\index{setPointNumber@{setPointNumber}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{setPointNumber()}{setPointNumber()}}
+{\footnotesize\ttfamily void Point\+Cloud\+::set\+Point\+Number (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Used to set the number of points in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & i\+: point number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_point_cloud_a8b0ed0403d742ead654ebc35fb1ac429}\label{class_point_cloud_a8b0ed0403d742ead654ebc35fb1ac429}} 
+\index{PointCloud@{PointCloud}!setPoints@{setPoints}}
+\index{setPoints@{setPoints}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{setPoints()}{setPoints()}}
+{\footnotesize\ttfamily void Point\+Cloud\+::set\+Points (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z }\end{DoxyParamCaption})}
+
+
+
+Used to set coordinates of a point in the cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & index\+: point identifier. \\
+\hline
+{\em double} & x\+: x coordinate. \\
+\hline
+{\em double} & y\+: y coordinate. \\
+\hline
+{\em double} & z\+: z coordinate. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_point_cloud_a8b0ed0403d742ead654ebc35fb1ac429_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_point_cloud_ade1ce1fa6a748f42e99f0c2fc8356ba3}\label{class_point_cloud_ade1ce1fa6a748f42e99f0c2fc8356ba3}} 
+\index{PointCloud@{PointCloud}!PointCloudRecorder@{PointCloudRecorder}}
+\index{PointCloudRecorder@{PointCloudRecorder}!PointCloud@{PointCloud}}
+\doxysubsubsection{\texorpdfstring{PointCloudRecorder}{PointCloudRecorder}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_point_cloud_recorder}{Point\+Cloud\+Recorder}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_8h}{Point\+Cloud.\+h}}\item 
+C\+:/\+Users/\+Dell/source/repos/\+O\+O\+P Project/\+Point\+Cloud/\+Point\+Cloud/\mbox{\hyperlink{_point_cloud_8cpp}{Point\+Cloud.\+cpp}}\end{DoxyCompactItemize}

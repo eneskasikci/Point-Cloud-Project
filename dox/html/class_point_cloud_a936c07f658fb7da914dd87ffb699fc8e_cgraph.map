@@ -1,0 +1,4 @@
+<map id="PointCloud::operator=" name="PointCloud::operator=">
+<area shape="rect" id="node1" title="Used to copy the contents of one Point Cloud to another." alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$class_point_cloud.html#af4c946920d2d9337dd5c2802c7229108" title="Returns total number of points in the Point Cloud." alt="" coords="201,5,388,32"/>
+</map>

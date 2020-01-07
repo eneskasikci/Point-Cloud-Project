@@ -1,0 +1,8 @@
+<map id="PointCloud::setPoints" name="PointCloud::setPoints">
+<area shape="rect" id="node1" title="Used to set coordinates of a point in the cloud." alt="" coords="304,97,452,124"/>
+<area shape="rect" id="node2" href="$class_depth_camera.html#a3fde461a9d8e2d27c20957ea4d55456f" title="Read the coordinates from a flile and saves them in a point cloud." alt="" coords="104,5,256,32"/>
+<area shape="rect" id="node3" href="$class_radius_outlier_filter.html#ae12dc9f70ae2e85cb18c08bce4489575" title="Filter the points that don&#39;t have any neighbors. \nThis function edits the point cloud directly." alt="" coords="115,57,245,98"/>
+<area shape="rect" id="node5" href="$class_pass_through_filter.html#a32d74eea9db09315c2c9f1ed8b29f463" title="Used to filter out point outside of a given range." alt="" coords="113,122,247,163"/>
+<area shape="rect" id="node6" href="$_pass_through_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the PassThroughFilter class." alt="" coords="5,159,56,185"/>
+<area shape="rect" id="node4" href="$_radius_outlier_filter___test_app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Test app to test the RadiusOutlierFiltiler class." alt="" coords="5,64,56,91"/>
+</map>

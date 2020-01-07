@@ -1,0 +1,4 @@
+<map id="Point::operator=" name="Point::operator=">
+<area shape="rect" id="node1" title="operator= that copies the x, y, and z coordinates of another point." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$class_point.html#a9204a7d82eb607a94cff134b9d01af1a" title="Used to set the coordinates of a point." alt="" coords="168,5,276,32"/>
+</map>
